@@ -10,7 +10,7 @@ class Oppai < Formula
   depends_on "openssl"
 
   def install
-    system "./build-osx.sh"
+    system "./build.sh"
     bin.install "oppai"
   end
 
