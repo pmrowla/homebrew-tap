@@ -4,8 +4,8 @@ class Oppai < Formula
   desc "osu! pp advanced inspector (oppai) is a difficulty and pp calculator for osu! standard beatmaps."
   homepage "https://github.com/Francesco149/oppai"
   head "https://github.com/Francesco149/oppai.git"
-  url "https://github.com/Francesco149/oppai/archive/0.9.3.tar.gz"
-  sha256 "3753c3346202e08dddffb8e70714084775bd37ada7fd5d22e5a336a7290922d2"
+  url "https://github.com/Francesco149/oppai/archive/0.9.5.tar.gz"
+  sha256 "78a82839e63bb5103f697a88e8b83c7eec1945ac6f4e764207bf923b5faf4c80"
 
   depends_on "openssl"
 
