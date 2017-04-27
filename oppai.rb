@@ -5,7 +5,7 @@ class Oppai < Formula
   homepage "https://github.com/Francesco149/oppai"
   head "https://github.com/Francesco149/oppai.git"
   url "https://github.com/Francesco149/oppai/archive/0.9.5.tar.gz"
-  sha256 "78a82839e63bb5103f697a88e8b83c7eec1945ac6f4e764207bf923b5faf4c80"
+  sha256 "3c164748c156418f593437ef1a70aadd9c695a74c8d65d7e791fc059b218978d"
 
   depends_on "openssl"
 
