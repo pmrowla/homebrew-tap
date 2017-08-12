@@ -1,11 +1,11 @@
 # osu! pp advanced inspector (oppai) homebrew formula
 
 class Oppai < Formula
-  desc "osu! pp advanced inspector (oppai) is a difficulty and pp calculator for osu! standard beatmaps."
+  desc "Difficulty and pp calculator for osu! standard beatmaps."
   homepage "https://github.com/Francesco149/oppai"
+  url "https://github.com/Francesco149/oppai/archive/0.9.11.tar.gz"
+  sha256 "50ecded4f692918dbb3151adc6b3a1558d0429f8ad5016dc0ea79cfc63448702"
   head "https://github.com/Francesco149/oppai.git"
-  url "https://github.com/Francesco149/oppai/archive/0.9.5.tar.gz"
-  sha256 "3c164748c156418f593437ef1a70aadd9c695a74c8d65d7e791fc059b218978d"
 
   depends_on "openssl"
 
@@ -52,6 +52,6 @@ class Oppai < Formula
       [HitObjects]
       256,192,994,1,0
     EOS
-    system "#{bin}/oppai test.osu"
+    system "#{bin}/oppai", "test.osu"
   end
 end
