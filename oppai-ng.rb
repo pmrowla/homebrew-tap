@@ -3,8 +3,8 @@
 class OppaiNg < Formula
   desc "Difficulty and pp calculator for osu! standard beatmaps."
   homepage "https://github.com/Francesco149/oppai-ng"
-  url "https://github.com/Francesco149/oppai-ng/archive/1.0.0.tar.gz"
-  sha256 "48191aa743618ac1439dd1a516059c861adca7d7e1d16db7ee0cc0424fd3042e"
+  url "https://github.com/Francesco149/oppai-ng/archive/1.1.20.tar.gz"
+  sha256 "eee3fdea8e40c31a150db72274eb9ac47621d417a7097f369f34d55a2b7a692e"
   head "https://github.com/Francesco149/oppai-ng.git"
 
   conflicts_with "pmrowla/homebrew-tap/oppai", :because => "oppai-ng replaces deprecated version of oppai binary"
